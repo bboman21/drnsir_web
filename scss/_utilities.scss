@@ -1,0 +1,19 @@
+$utilities: () !default;
+$utilities: map-merge(
+  (
+    "dr-font-size": (
+      rfs: true,
+      property: font-size,
+      class: drfs,
+      values: (
+        1: 3.5rem,
+        2: 3rem,
+        3: 2.5rem,
+        4: 2rem,
+        5: 1.5rem,
+        6: 1rem,
+      ),
+    ),
+  ),
+  $utilities
+);
