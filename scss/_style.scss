@@ -47,6 +47,7 @@ h1 {
     }
   }
 }
+
 .request {
   background-color: white;
   .request-text {
@@ -56,7 +57,7 @@ h1 {
     justify-content: center;
     align-items: center;
     button {
-      width: 80%;
+      width: 60%;
       background-color: $drnsir-color;
       color: white;
       font-size: 1.2rem;
@@ -87,8 +88,15 @@ h1 {
     color: $drnsir-color;
   }
 }
+.work {
+  background-color: #f3d6fd;
+}
+.chat {
+  background-color: #c3e6ff;
+}
 .dr-footer {
-  height: 20vh;
+  // height: 20vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,6 +104,6 @@ h1 {
   bottom: 0px;
 
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: $drnsir-color;
+  // background-color: rgba(0, 0, 0, 0.1);
+  color: $drnisr-font;
 }
