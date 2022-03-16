@@ -88,17 +88,14 @@ h1 {
   }
 }
 .dr-footer {
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  // margin-bottom: 0px;
-  bottom: 0px;
-  // position: fixed;
-  // bottom: 0px;
-  // width: 100%;
-  text-align: center;
-  height: 150px;
-  background-color: rgba(0, 0, 0, 0.3);
 
+  bottom: 0px;
+
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
   color: $drnsir-color;
 }
