@@ -2,7 +2,9 @@
   background-color: white;
   font-size: 14px;
   color: $drnisr-font;
-  height: 300vh;
+  width: 100vw;
+
+  margin: 0 0;
 }
 .divide {
   display: flex;
@@ -18,11 +20,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 10%;
-  width: 100%;
+  // padding: 0px 10%;
 }
 .intro {
-  height: 100vh;
+  height: 1000px;
   background-color: $drnsir-color;
   text-align: center;
   background-image: linear-gradient(
@@ -37,7 +38,7 @@
     justify-content: center;
     align-items: center;
     // width: 100%;
-    padding: 30px 0;
+    padding: 30px 10px;
     border-top: 1px solid $drnisr-font;
     border-bottom: 1px solid $drnisr-font;
   }
@@ -86,7 +87,7 @@
 }
 
 .request {
-  height: 100vh;
+  height: 1200px;
   background-color: white;
 
   .request-text {
@@ -131,7 +132,7 @@
 
 .chat {
   position: relative;
-  height: 100vh;
+  height: 1000px;
   background-color: white;
   // background-origin: border-box;
 
