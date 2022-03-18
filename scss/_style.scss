@@ -90,18 +90,18 @@
     top: 10px;
     margin-top: 20px;
     display: block;
-
+    color: $drnsir-color;
     text-align: center;
     padding: 20px 40px;
     border-radius: 5px;
 
     .bi-arrow-down-circle {
       font-size: 2rem;
-      opacity: 0.25;
+      opacity: 0.35;
     }
     transition: color 0.2s linear, border 0.2s linear;
     &:hover {
-      color: $drnsir-color;
+      color: #d966ff;
     }
     h6 {
       margin-bottom: 5px;
@@ -142,11 +142,13 @@
     a {
       text-align: center;
       display: block;
-      width: 60%;
+      // width: 60%;
       button {
         border: 0px;
         border-radius: 30px;
+        padding: 8px 40px;
         width: 100%;
+        max-width: 400px;
         background: linear-gradient(45deg, rgb(51, 169, 224), #d966ff);
         color: white;
         font-size: 1.2rem;
