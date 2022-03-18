@@ -40,6 +40,12 @@
 
 .intro {
   background-color: $drnsir-color;
+  background: linear-gradient(
+    to bottom,
+    $drnsir-color,
+    $drnsir-color,
+    rgb(51, 169, 224)
+  );
   height: 800px;
 }
 .sub-intro {
