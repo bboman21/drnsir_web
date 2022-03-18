@@ -79,8 +79,8 @@
   justify-content: center;
   align-items: center;
   img {
-    // display: block;
-    width: 420px;
+    width: 340px;
+    // max-width: 350px;
     height: auto;
     filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.3));
   }
@@ -96,7 +96,7 @@
     border-radius: 5px;
 
     .bi-arrow-down-circle {
-      font-size: 3rem;
+      font-size: 2rem;
       opacity: 0.25;
     }
     transition: color 0.2s linear, border 0.2s linear;
@@ -104,7 +104,7 @@
       color: $drnsir-color;
     }
     h6 {
-      margin-bottom: 24px;
+      margin-bottom: 5px;
     }
   }
 }
